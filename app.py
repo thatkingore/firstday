@@ -27,3 +27,7 @@ print(len(phrase))
 print(phrase[0])
 print(phrase.index(" "))
 print(phrase.replace("Giraffe", "Elephant"))
+
+print(-3.142)
+my_num = 5.2
+print(my_num + "is my favourite number")
