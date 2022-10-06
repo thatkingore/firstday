@@ -30,16 +30,17 @@ print(phrase.replace("Giraffe", "Elephant"))
 
 pie = -3.142
 print(pie)
-print(abs(pie)
+print(abs(pie))
 
 my_num = 5.2
-print(my_num + "is my favourite number")
-      
-print(pow(3,2))
-print(max(3,2))
-print(min(3,2))
+print(my_num, "is my favourite number")
+
+print(pow(3, 2))
+print(max(3, 2))
+print(min(3, 2))
 print(round(pie))
-      
+
 from math import *
-print(floor(pie))
-print(ceil(pie))
+
+print(floor(abs(pie)))
+print(ceil(abs(pie)))
