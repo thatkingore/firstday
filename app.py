@@ -45,8 +45,8 @@ from math import *
 print(floor(abs(pie)))
 print(ceil(abs(pie)))
 
-name = input("Enter your name: ")
-age = input("Enter your age: ")
+name = input("What is your name: ")
+age = input("What is your age: ")
 print("Hello " + name + "! You are " + age)
 
 num1 = input("Enter a whole number: ")
@@ -55,8 +55,22 @@ result = int(num1) + int(num2)
 
 print(result)
 
-num1 = input("Enter a number: ")
-num2 = input("Enter another number: ")
+num1 = input("What is your favourite number: ")
+num2 = input("Another number: ")
 result = float(num1) + float(num2)
 
 print(result)
+
+colour = input("What is your favourite colour: ")
+plural_noun = input("Enter a noun in plural form: ")
+celebrity = input("Who is your favourite celebrity: ")
+
+
+print("Roses are " + colour)
+print(plural_noun + " are blue")
+print("I love " + celebrity)
+
+friends = ["Kunmi", "Edet", "Motola", "Rieme", "Baba"]
+
+print(friends[2])
+print(friends[1:4])
