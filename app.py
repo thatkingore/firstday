@@ -70,7 +70,25 @@ print("Roses are " + colour)
 print(plural_noun + " are blue")
 print("I love " + celebrity)
 
+lucky_numbers = [4, 8, 15, 16, 23, 42]
 friends = ["Kunmi", "Edet", "Motola", "Rieme", "Baba"]
 
 print(friends[2])
 print(friends[1:4])
+
+friends.append("Creed")
+friends.insert(2, "Baba")
+friends.remove("Rieme")
+friends.pop()
+friends.sort()
+lucky_numbers.sort()
+lucky_numbers.reverse()
+friends.extend(lucky_numbers)
+
+friends2 = friends.copy()
+
+print(friends2)
+print(friends2.index(42))
+print(friends2.count("Baba"))
+
+friends2.clear()
