@@ -92,3 +92,6 @@ print(friends2.index(42))
 print(friends2.count("Baba"))
 
 friends2.clear()
+
+coordinates = [(4, 5), (6, 7), (80, 34)]
+print(coordinates[1])
