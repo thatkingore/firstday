@@ -1,0 +1,5 @@
+def say_hi(name, age):
+    print("Oh hello " + name + ", you are " + str(age))
+
+say_hi("ore", 23)
+say_hi("twinnie", 22)
