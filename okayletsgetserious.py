@@ -33,9 +33,9 @@ else:
     print("Don't even worry about it")
 
 meat = False
-if hungry and meat:
+if hungry and steak:
     print("Can I have steak please")
-elif hungry and not(meat):
+elif hungry and not(steak):
     print("Hmm how about spaghetti & meatballs")
 else:
     print("Oh a salad!")
