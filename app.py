@@ -49,18 +49,6 @@ name = input("What is your name: ")
 age = input("What is your age: ")
 print("Hello " + name + "! You are " + age)
 
-num1 = input("Enter a whole number: ")
-num2 = input("Enter another whole number: ")
-result = int(num1) + int(num2)
-
-print(result)
-
-num1 = input("What is your favourite number: ")
-num2 = input("Another number: ")
-result = float(num1) + float(num2)
-
-print(result)
-
 colour = input("What is your favourite colour: ")
 plural_noun = input("Enter a noun in plural form: ")
 celebrity = input("Who is your favourite celebrity: ")
