@@ -1,3 +1,5 @@
+# Functions
+
 def say_hi(name, age):
     print("Oh hello " + name + ", you are " + str(age))
 
@@ -10,6 +12,8 @@ result = cube(4)
 
 print(cube(3))
 print(result)
+
+# IF statements
 
 hungry = False
 if hungry:
@@ -51,3 +55,12 @@ def max_num(num1, num2, num3):
         return num3
 
 print(max_num(4, 3, 1))
+
+# WHILE loop
+
+i = 1
+while i <= 10:
+    print(i)
+    i += 1
+
+print("End of loop.")
