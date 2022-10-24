@@ -64,3 +64,27 @@ while i <= 10:
     i += 1
 
 print("End of loop.")
+
+# FOR loop
+
+for letter in "Black Girls In Tech":
+    print(letter)
+
+# FOR loop and arrays
+friends = ["Rieme", "Baba", "Motola", "Tao", "Aiss"]
+for friend in friends:
+    print(friend)
+
+# FOR loop and range of numbers
+for index in range(10):
+    print(index)
+for index in range(3, 10):
+    print(index)
+for index in range(len(friends)):
+    print(friends[index])
+
+for index in range(5):
+    if index == 0:
+        print("First Iteration")
+    else:
+        print("Not First")
