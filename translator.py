@@ -1,3 +1,5 @@
+# Translating vowels to the letter G/g
+
 def translator(phrase):
     translation = ""
     for letter in phrase:
