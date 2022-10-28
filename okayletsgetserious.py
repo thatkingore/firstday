@@ -113,3 +113,16 @@ print(number_grid[2][1])
 for row in number_grid:
     for col in row:
         print(col)
+
+# Accounting for errors using TRY EXCEPT and err
+
+try:
+    value = 10/0
+    number = int(inout("Enter a number: "))
+    print(number)
+# Using err
+except ZeroDivisionError as err:
+    print(err)
+# Using an input
+except ValueError:
+    print("Invalid Input")
