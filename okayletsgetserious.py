@@ -126,3 +126,40 @@ except ZeroDivisionError as err:
 # Using an input
 except ValueError:
     print("Invalid Input")
+    
+
+'''
+
+# Reading files
+
+# Opening the file
+employee_file = open("employees.txt", "r")
+
+# to just read
+open("employees.txt", "r")
+# to just write
+open("employees.txt", "w")
+# to read and write
+open("employees.txt", "r+")
+# to append
+open("employees.txt", "a")
+
+# Check if the file can be read from
+print(employee_file.readable())
+
+# Reading a particular line from the file starting from the first line
+print(employee_file.readline())
+# Reading the second line
+print(employee_file.readline())
+
+# Reading a particular line using its index in the array
+print(employee_file.readline()[1])
+
+for employee in employee_file.readlines():
+    print(employee)
+
+# Closing the file
+employee_file.close
+
+'''
+
