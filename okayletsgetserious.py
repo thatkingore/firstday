@@ -118,7 +118,7 @@ for row in number_grid:
 
 try:
     value = 10/0
-    number = int(inout("Enter a number: "))
+    number = int(input("Enter a number: "))
     print(number)
 # Using err
 except ZeroDivisionError as err:
