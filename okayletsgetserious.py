@@ -171,3 +171,8 @@ employee_file.close
 import useful_stuff
 
 print(useful_stuff.roll_dice(10))
+
+'''
+https://docs.python.org/py-modindex
+'''
+
