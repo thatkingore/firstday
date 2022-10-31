@@ -161,6 +161,11 @@ for employee in employee_file.readlines():
 # Closing the file
 employee_file.close
 
+# to add a webpage (example)
+employee_file = open("employees.txt", "w")
+employee_file.write("<p>This is HTML</p>")
+employee_file.close
+
 '''
 
 
