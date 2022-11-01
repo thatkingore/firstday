@@ -176,3 +176,8 @@ print(useful_stuff.roll_dice(10))
 https://docs.python.org/py-modindex
 '''
 
+from student import student
+
+student1 = student("Ore", "Mathematics BSc", 3.1, False)
+print(student1.degree)
+
