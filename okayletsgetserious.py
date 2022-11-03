@@ -180,6 +180,6 @@ https://docs.python.org/py-modindex
 
 from student import student
 
-student1 = student("Ore", "Mathematics BSc", 3.1, False)
+student1 = student("Ore", "Mathematics BSc", 80, False)
 print(student1.degree)
-
+print(student1.first_class())
