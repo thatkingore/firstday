@@ -176,6 +176,7 @@ print(useful_stuff.roll_dice(10))
 https://docs.python.org/py-modindex
 '''
 
+
 # Modelling a 'Student' by creating a class and an object, and assigning attributes to the object
 
 from student import student
@@ -183,3 +184,14 @@ from student import student
 student1 = student("Ore", "Mathematics BSc", 80, False)
 print(student1.degree)
 print(student1.first_class())
+
+
+# Example of modelling using a generic chef vs a world class chef
+
+from chef import chef
+from world_class_chef import world_class_chef
+
+mychef = chef()
+mychef.make_special_dish()
+myworld_class_chef = world_class_chef()
+myworld_class_chef.make_special_dish()
